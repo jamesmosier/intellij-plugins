@@ -53,13 +53,13 @@ export class PrettierPlugin implements LanguagePlugin {
         writer.write(JSON.stringify(response))
     }
 
-    private handleReformatCommand(args: FormatArguments): FormatResponse {
+    private handleReformatCommand(args: FormatArguments): Promise<FormatResponse> | FormatResponse {
         let prettierApi = this.requirePrettierApi(args.prettierPath);
 
         try {
             let options = {ignorePath: args.ignoreFilePath, withNodeModules: true};
             if (prettierApi.getFileInfo && prettierApi.getFileInfo.sync(args.path, options).ignored) {
-                return {ignored: true}
+                return { ignored: true };
             }
             return performFormat(prettierApi, args)
         }
@@ -101,19 +101,24 @@ function flatten<T>(arr: T[][]): T[] {
     return arr.reduce((previousValue, currentValue) => previousValue.concat(currentValue))
 }
 
-function performFormat(api: PrettierApi, args: FormatArguments): { formatted: string} {
+async function performFormat(api: any, args: FormatArguments): Promise<FormatResponse> {
     if (args.flushConfigCache) {
-        api.clearConfigCache()
+        api.clearConfigCache();
     }
-    let config = api.resolveConfig.sync(args.path, {useCache: true, editorconfig: true});
+    let config = await prettier.resolveConfig.sync(args.path, {useCache: true, editorconfig: true});
     if (config == null) {
         config = {filepath: args.path};
     }
     if (config.filepath == null) {
-        config.filepath = args.path
+        config.filepath = args.path;
     }
 
     config.rangeStart = args.start;
     config.rangeEnd = args.end;
-    return {formatted: api.format(args.content, config)};
+
+    const getFormatted = api({
+        text: args.content,
+        filePath: config.filepath,
+    });
+    return { formatted: getFormatted };
 }

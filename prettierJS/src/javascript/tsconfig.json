@@ -5,6 +5,7 @@
     "noImplicitThis": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
+    "target": "es6",
     "outDir": "../../gen/prettierLanguageService"
   },
   "compileOnSave": false
