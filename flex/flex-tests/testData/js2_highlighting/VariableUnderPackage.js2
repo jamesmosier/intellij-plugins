@@ -1,3 +1,0 @@
-package {
-  var <error descr="Variable 'Foo' should be defined in file 'Foo.js2'">Foo</error> = /Name=(?P<filename>.*?)(&|$)/ix;
-}

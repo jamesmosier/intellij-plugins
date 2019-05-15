@@ -1,6 +1,0 @@
-package com.xxx.yyy {
-  class C {
-    var a;
-    #include "IncludedMembers_2.js2"
-  }
-}

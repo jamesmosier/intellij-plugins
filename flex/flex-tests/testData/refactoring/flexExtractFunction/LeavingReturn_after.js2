@@ -1,9 +1,0 @@
-function created():Boolean {
-    return false;
-}
-
-function foo() {
-    if (true) {
-        return created();
-    }
-}

@@ -1,7 +1,0 @@
-package xxx {
-public class MoveCursorInsideConstructor {
-    public function MoveCursorInsideConstructor(x) {
-        new MoveCursorInsideConstruct<caret>
-    }
-}
-}

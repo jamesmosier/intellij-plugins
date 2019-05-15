@@ -1,3 +1,0 @@
-class SmartCompletion {}
-function foo(x:SmartCompletion) {}
-foo(new SmartCompletion()<caret>);

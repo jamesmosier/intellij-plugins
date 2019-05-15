@@ -1,8 +1,0 @@
-class Super {
-  public function foo() {}
-}
-
-class Sub extends Super {
-  public override function f<caret>oo() {}
-}
-

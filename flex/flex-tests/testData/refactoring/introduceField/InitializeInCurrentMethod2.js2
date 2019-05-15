@@ -1,5 +1,0 @@
-class A {
-    function xxx() {
-        <selection>"cccccc"</selection><caret>
-    }
-}

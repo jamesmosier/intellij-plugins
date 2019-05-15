@@ -1,6 +1,0 @@
-// "Create Class 'Foo'" "true"
-class C {
-  static function foo() {
-    new <error descr="Unresolved type Foo">F<caret>oo</error>("1","2");
-  }
-}

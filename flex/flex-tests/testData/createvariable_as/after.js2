@@ -1,8 +1,0 @@
-// "Create Field 'aaa'" "true"
-class A {
-    private var aaa:int;
-  function A() {
-    aaa = 1;
-  }
-}
-

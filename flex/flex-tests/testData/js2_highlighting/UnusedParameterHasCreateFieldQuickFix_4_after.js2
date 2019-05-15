@@ -1,8 +1,0 @@
-package {
-  public class UnusedParameterHasCreateFieldQuickFix_4 {
-      private var _value;<caret>
-    public function bar(value): void {
-        _value = value;
-    }
-  }
-}

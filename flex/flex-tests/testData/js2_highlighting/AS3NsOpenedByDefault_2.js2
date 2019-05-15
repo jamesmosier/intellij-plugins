@@ -1,6 +1,0 @@
-namespace __AS3__$vec;
-
-__AS3__$vec final dynamic class Vector extends Object
-{
-  native __AS3__$vec function Vector():*;
-}

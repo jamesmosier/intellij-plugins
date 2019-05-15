@@ -1,7 +1,0 @@
-import mypackage.*;
-
-<error descr="Package should be first statement in file">package</error> {
-  class ImportBeforePackage {
-    var x:Object = new ImportBeforePackage();
-  }
-}

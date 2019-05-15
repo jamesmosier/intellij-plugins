@@ -1,2 +1,0 @@
-interface IFoo {}
-var x:IFoo = new I<caret>

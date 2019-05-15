@@ -1,4 +1,0 @@
-/**
- * <caret>
- */
-function get foo():int {}

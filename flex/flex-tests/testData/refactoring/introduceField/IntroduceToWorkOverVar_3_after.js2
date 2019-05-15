@@ -1,7 +1,0 @@
-class A {
-    private static var created:int = 1;
-
-    static function xxx() {
-        <caret>
-    }
-}

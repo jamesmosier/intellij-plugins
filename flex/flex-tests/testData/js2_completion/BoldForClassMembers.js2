@@ -1,8 +1,0 @@
-package {
-public class BoldForClassMembers {
-    function ____() {
-        var x:BoldForClassMembers
-        x.<caret>
-    }
-}
-}

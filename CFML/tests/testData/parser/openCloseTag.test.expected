@@ -1,8 +1,0 @@
-CfmlFile:openCloseTag.cfml
-  Tag
-    PsiElement(OPENER)('<')
-    PsiElement(CF_TAG_NAME)('cfscript')
-    PsiElement(R_ANGLEBRACKET)('>')
-    PsiElement(LSLASH_ANGLEBRACKET)('</')
-    PsiElement(CF_TAG_NAME)('cfscript')
-    PsiElement(CLOSER)('>')

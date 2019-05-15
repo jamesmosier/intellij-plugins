@@ -1,6 +1,0 @@
-class SmartCompletion {
-    static var xxx:int = 0;
-    function foo(x:int) {}
-}
-
-new SmartCompletion().foo(SmartCompletion.xxx<caret>);

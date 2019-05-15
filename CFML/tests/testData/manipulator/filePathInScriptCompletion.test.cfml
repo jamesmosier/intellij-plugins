@@ -1,3 +1,0 @@
-<cfscript>
-    include "<caret>";
-</cfscript>

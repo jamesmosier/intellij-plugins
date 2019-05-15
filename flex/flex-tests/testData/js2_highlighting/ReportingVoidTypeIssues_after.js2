@@ -1,5 +1,0 @@
-function foo():void {
-  <caret>return;
-}
-
-var x:void;

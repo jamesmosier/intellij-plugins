@@ -1,3 +1,0 @@
-class mypackage.myclass {}
-function mypackage.myfunction() {}
-native public function libwebp.internal.ptr2funInit():*;

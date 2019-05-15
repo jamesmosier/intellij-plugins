@@ -1,3 +1,0 @@
-dynamic class Test {}
-var test: Test = new Test();
-test.doSmth = <warning>function</warning>() {};

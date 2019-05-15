@@ -1,9 +1,0 @@
-package {
-    public class UsingPropertyAsFunctionCall {
-        function get bar():Number { return 1; }
-        public function UsingPropertyAsFunctionCall() {
-            var foo:Object = bar;
-            var that:UsingPropertyAsFunctionCall = this;
-            foo = that.bar();
-        }
-    }}

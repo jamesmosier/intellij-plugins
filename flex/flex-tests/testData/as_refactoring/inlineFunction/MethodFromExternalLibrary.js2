@@ -1,7 +1,0 @@
-package {
-public class MethodFromExternalLibrary {
-  public function MethodFromExternalLibrary() {
-    AuxClass.z<caret>z();
-  }
-}
-}

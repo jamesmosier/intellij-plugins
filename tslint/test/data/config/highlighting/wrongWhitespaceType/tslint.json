@@ -1,8 +1,0 @@
-{
-  "rules": {
-    "whitespace": [false,
-    <warning>115</warning>,
-    <warning>"check-"</warning>
-  ]
-  }
-}

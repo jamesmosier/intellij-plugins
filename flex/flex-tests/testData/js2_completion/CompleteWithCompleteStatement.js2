@@ -1,3 +1,0 @@
-var bar:int;
-var baz:int;
-var foo:int = ba<caret>

@@ -1,3 +1,0 @@
-var obj:* = { test : 1 };
-var s:Function = function():void { this.test = 11; };
-s.apply(obj);

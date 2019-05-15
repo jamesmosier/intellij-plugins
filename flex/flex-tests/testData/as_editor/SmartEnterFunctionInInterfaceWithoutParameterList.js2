@@ -1,5 +1,0 @@
-package some.name {
-public interface AnInterface {
-    function doSomething<caret>
-}
-}

@@ -1,7 +1,0 @@
-package {
-public class ChangeReturnTypeFix3 {
-  public function foo():void {
-    <error>return this;</error>
-  }
-}
-}

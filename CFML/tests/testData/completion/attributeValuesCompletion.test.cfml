@@ -1,1 +1,0 @@
-<cfqueryparam cfsqltype="<caret>">

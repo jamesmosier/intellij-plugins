@@ -1,7 +1,0 @@
-package {
-import model.tasks.ICallable
-public class <error>te<caret>st</error> implements ICallable
-{
-
-}
-}

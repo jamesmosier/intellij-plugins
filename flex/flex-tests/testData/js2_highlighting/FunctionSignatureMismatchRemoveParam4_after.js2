@@ -1,7 +1,0 @@
-package {
-    public class FunctionSignatureMismatchRemoveParam4 {
-        function foo(s:String, b:Boolean = true, n:Number = 500) {
-            foo("a");
-        }
-    }
-}

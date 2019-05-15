@@ -1,7 +1,0 @@
-MyNamespace<caret>
-
-package mypackage {
-  public namespace MyNamespace;
-}
-
-import mypackage.MyNamespace;

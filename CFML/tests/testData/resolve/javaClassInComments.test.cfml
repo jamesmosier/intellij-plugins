@@ -1,1 +1,0 @@
-<!--- @cfmlvariable name="a" type="My<caret>Class" --->

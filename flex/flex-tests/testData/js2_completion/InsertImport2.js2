@@ -1,4 +1,0 @@
-import AA<caret>
-package foo {
-  public class AAA {}
-}

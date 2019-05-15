@@ -1,5 +1,0 @@
-class foo.Bar {}
-class baz.Foo {
-    import foo.B<caret>ar;
-    var bar:Bar;
-}

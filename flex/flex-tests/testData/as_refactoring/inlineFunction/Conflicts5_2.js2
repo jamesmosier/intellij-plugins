@@ -1,5 +1,0 @@
-package {
-class Foo {}
-}
-
-var t = new Conflicts5().inlineMe();

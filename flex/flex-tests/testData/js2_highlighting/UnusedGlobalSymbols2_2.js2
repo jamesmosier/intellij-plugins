@@ -1,7 +1,0 @@
-package {
-public class UnusedGlobalSymbols2_2
-{
-  var x:* = new UnusedGlobalSymbols2(); 
-}
-}
-

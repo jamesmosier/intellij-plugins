@@ -1,1 +1,0 @@
-package {public class ComponentFromManifestCompletion_other {}}

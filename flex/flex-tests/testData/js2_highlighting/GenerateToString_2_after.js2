@@ -1,8 +1,0 @@
-class Bar {
-}
-class A extends Bar {
-
-    public function toString():String {
-        return "A";
-    }
-}

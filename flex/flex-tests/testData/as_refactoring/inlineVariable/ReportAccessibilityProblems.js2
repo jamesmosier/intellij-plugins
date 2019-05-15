@@ -1,5 +1,0 @@
-class Test {
-	public var vv = foo;
-	private function foo(): void {}
-}
-new Test().v<caret>v

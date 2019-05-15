@@ -1,3 +1,0 @@
-function foo() {
-<error>Alert</error>.show;
-}

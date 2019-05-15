@@ -1,8 +1,0 @@
-package {
-  internal function ImplicitlyInternalDeclaration():void {}
-}
-class C {
-    var x:int;
-
-    function C() {}
-}

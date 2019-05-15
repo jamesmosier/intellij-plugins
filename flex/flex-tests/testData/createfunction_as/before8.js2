@@ -1,6 +1,0 @@
-// "Create Method 'bar'" "true"
-class C {
-  static function foo() {
-    var x:int = ba<caret>r()
-  }
-}

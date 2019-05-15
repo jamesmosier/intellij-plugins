@@ -1,7 +1,0 @@
-package {
-class FunctionSignatureMismatch14 {
-  function zz(a, b, c) {
-    zz<error>(15)</error>;
-  }
-}
-}

@@ -1,8 +1,0 @@
-package {
-
-public                   class          Foo       extends         Q              implements    Zz, ZZ2
-
-{
-
-}
-}

@@ -1,8 +1,0 @@
-// "Create Method 'foo'" "true"
-class Super {}
-
-class Sub extends Super {
-function foo() {
- super.f<caret>oo();
-}
-}

@@ -1,3 +1,0 @@
-XML_COMMENT_START ('<!--')
-XML_COMMENT_CHARACTERS (' {{ v }} ')
-XML_COMMENT_END ('-->')

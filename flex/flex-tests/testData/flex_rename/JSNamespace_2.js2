@@ -1,4 +1,0 @@
-import foo.AAA
-use namespace AAA
-AAA var x;
-AAA var x2;

@@ -1,1 +1,0 @@
-<cfargument name="test" default="#WriteOutput(""a"")#"/>

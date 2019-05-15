@@ -1,5 +1,0 @@
-import qqq.AAA;
-
-function aaa() {
-  AAA<caret>
-}

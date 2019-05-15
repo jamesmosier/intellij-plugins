@@ -1,9 +1,0 @@
-package {
-public class NullInIfStatement {
-    public function Q() {
-        var v;
-
-        if (v != <caret>)
-        }
-    }
-}

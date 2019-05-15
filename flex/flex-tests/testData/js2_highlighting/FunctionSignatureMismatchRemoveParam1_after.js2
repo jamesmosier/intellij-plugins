@@ -1,7 +1,0 @@
-package {
-    public class FunctionSignatureMismatchRemoveParam1 {
-        function foo(i:int) {
-            foo(5);
-        }
-    }
-}

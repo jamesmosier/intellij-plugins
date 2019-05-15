@@ -1,2 +1,0 @@
-<cfset newName = 10>
-<cfset b = newName>

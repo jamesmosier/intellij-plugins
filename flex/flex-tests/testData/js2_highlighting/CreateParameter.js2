@@ -1,3 +1,0 @@
-function foo() {
-    var xxx:String = <error>y<caret>yy</error>;
-}

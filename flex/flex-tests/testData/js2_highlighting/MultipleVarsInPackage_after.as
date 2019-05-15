@@ -1,7 +1,0 @@
-package {
-
-
-
-var MultipleVarsInPackage:*;
-
-}

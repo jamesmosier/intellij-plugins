@@ -1,7 +1,0 @@
-package mypackage2 {
-  My<caret>
-}
-
-package mypackage {
-  public namespace MyNamespace;
-}

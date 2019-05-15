@@ -1,4 +1,0 @@
-package {
-  class <error descr="More than one externally visible symbol defined in file">MoreThanOneTopLevelSymbolDeclared</error> {}
-  class <error descr="More than one externally visible symbol defined in file">MoreThanOneTopLevelSymbolDeclared</error> {}
-}

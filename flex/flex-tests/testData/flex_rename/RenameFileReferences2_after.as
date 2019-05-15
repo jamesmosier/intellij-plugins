@@ -1,1 +1,0 @@
-[Embed(source="xxx<caret>.as")] class C {}

@@ -1,5 +1,0 @@
-function foo() {
-    if (true) {
-        <selection>return false;</selection>
-    }
-}

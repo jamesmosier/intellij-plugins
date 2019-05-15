@@ -1,7 +1,0 @@
-interface Foo {
-    function bar();
-}
-
-class C implements Foo {
-  <error>private</error> function bar() {}
-}

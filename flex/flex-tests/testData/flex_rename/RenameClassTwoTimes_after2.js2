@@ -1,7 +1,0 @@
-
-package mytest.boo {
-public class RenameClassTwoTimes_4 {
-    public function RenameClassTwoTimes_4() {
-    }
-}
-}

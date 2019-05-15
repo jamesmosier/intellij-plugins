@@ -1,7 +1,0 @@
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
-  <mx:Style>
-    Panel.myClass {
-    }
-  </mx:Style>
-  <mx:Panel styleName="myClass"/>
-</mx:Application>

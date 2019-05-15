@@ -1,1 +1,0 @@
-<cffunction name="getFoo" returntype="folder.<caret>"></cffunction>

@@ -1,4 +1,0 @@
-function someOtherFunction():void {}
-function someFunction():void {
-    return some<caret>()
-}

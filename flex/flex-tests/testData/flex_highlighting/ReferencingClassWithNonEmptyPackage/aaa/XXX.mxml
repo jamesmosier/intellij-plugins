@@ -1,6 +1,0 @@
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:aaa="aaa.*">
-  <mx:Script>
-    var a = new ReferencingClassWithNonEmptyPackage()
-  </mx:Script>
-  <aaa:XXX />
-</mx:Application>

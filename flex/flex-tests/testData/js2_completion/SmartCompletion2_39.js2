@@ -1,5 +1,0 @@
-class Foo {}
-class Bar extends Foo {}
-var x:Foo
-var y:Object
-if (x == <caret>) {}

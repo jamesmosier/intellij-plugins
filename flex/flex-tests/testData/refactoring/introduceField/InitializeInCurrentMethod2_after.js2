@@ -1,7 +1,0 @@
-class A {
-    private var created:String;
-
-    function xxx() {
-        created = "cccccc";<caret>
-    }
-}

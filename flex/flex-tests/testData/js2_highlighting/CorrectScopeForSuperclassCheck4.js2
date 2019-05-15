@@ -1,9 +1,0 @@
-package {
-    import flash.events.EventDispatcher;
-
-    public class CorrectScopeForSuperclassCheck4 extends EventDispatcher {
-        public function foo():void {
-            Foo.test(this);
-        }
-    }
-}

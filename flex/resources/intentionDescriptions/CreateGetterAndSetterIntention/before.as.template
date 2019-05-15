@@ -1,6 +1,0 @@
-package {
-public class Validator {
-    <spot>public var strict:Boolean;</spot>
-
-}
-}

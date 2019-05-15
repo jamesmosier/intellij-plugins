@@ -1,5 +1,0 @@
-package bar {
-  class XXX {
-      "foo.Bar<caret>"
-  }
-}

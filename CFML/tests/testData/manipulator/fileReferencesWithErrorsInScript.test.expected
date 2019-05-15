@@ -1,5 +1,0 @@
-<cfscript>
-include"moveOldFile.test.cfml";
-include "rename.test.cfml";
-include "<error>abacaba.test.cfml</error>";
-</cfscript>

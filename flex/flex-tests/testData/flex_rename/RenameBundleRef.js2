@@ -1,1 +1,0 @@
-resourceManager.getResourceBundle("","MyBundle<caret>Name");

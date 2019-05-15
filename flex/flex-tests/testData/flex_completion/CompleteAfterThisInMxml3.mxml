@@ -1,6 +1,0 @@
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
-    <mx:Script>
-        this.bb<caret>
-    </mx:Script>
-    <mx:Label id="bbb"/>
-</mx:Application>

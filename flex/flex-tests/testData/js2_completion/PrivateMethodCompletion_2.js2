@@ -1,5 +1,0 @@
-class MyClass {
-  private function myFunction() {
-    my<caret>
-  }
-}

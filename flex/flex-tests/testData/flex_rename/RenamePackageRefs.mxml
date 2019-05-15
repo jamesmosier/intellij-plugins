@@ -1,6 +1,0 @@
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:aaa="xxx.aaa.*">
-   <mx:Script>
-     import xxx.aaa.Foo;
-     var a:xxx.a<caret>aa.Foo
-   </mx:Script>
-</mx:Application>

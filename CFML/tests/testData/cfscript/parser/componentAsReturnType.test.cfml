@@ -1,6 +1,0 @@
-component{
-    component function foo()
-    {
-        //
-    }
-}

@@ -1,1 +1,0 @@
-<cfset createObject("folder.subfolder.Compone<caret>ntName")>

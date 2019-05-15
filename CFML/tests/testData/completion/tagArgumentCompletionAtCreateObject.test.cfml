@@ -1,1 +1,0 @@
-<cfset foo = createObject(    "<caret>"

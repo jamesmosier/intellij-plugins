@@ -1,7 +1,0 @@
-// "Create Field 'aaa'" "true"
-class A {
-  function A() {
-    aa<caret>a = 1;
-  }
-}
-

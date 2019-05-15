@@ -1,7 +1,0 @@
-<cfloop>
-    <cfset dayNum = 10>
-    <cfif>
-        <cfoutput>#dayOfWeekAsString(dayNum<caret>)#</cfoutput>
-    </cfif>
-
-</cfloop>

@@ -1,7 +1,0 @@
-package {
-public class ChangeReturnTypeFix1 {
-  public function foo():int {
-    return <error>"abc"</error>;
-  }
-}
-}

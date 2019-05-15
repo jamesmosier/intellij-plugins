@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
-    <mx:Button label="{getMsg('zzzzz')}"/>
-    <mx:Script><![CDATA[
-        private function getMsg(zzzzz:String):String {
-            return "";
-        }
-        ]]></mx:Script>
-</mx:Application>

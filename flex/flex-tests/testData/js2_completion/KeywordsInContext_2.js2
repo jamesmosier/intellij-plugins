@@ -1,3 +1,0 @@
-package {
-public const extendsFoo = 1;
-}

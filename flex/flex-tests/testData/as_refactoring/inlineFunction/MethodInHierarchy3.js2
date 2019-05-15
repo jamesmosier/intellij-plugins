@@ -1,8 +1,0 @@
-interface Super {
-  function foo();
-}
-
-class Sub implements Super {
-  public function fo<caret>o() {}
-}
-

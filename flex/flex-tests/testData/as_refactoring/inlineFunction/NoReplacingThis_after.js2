@@ -1,6 +1,0 @@
-class Some {
-    function bar() {
-        var arr:Array = new Array(1, 2, 3);
-        trace(arr);
-    }
-}

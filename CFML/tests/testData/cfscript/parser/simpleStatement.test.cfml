@@ -1,3 +1,0 @@
-<cfscript>
-    fckEditor = "component";
-</cfscript>
