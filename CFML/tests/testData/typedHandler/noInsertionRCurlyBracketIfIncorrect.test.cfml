@@ -1,3 +1,0 @@
-<cfscript>
-    if({<caret>}
-</cfscript>

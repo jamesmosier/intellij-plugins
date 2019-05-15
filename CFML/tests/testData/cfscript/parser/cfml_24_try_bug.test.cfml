@@ -1,3 +1,0 @@
-<cfscript>
-try{
-</cfscript>

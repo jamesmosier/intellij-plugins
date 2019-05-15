@@ -1,1 +1,0 @@
-function <warning>fo<caret>o</warning>() {}

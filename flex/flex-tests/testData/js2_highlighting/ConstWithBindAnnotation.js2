@@ -1,9 +1,0 @@
-package
-{
-public class ConstWithBindAnnotation
-{
-    [PercentProxy("width")]
-	[Embed]
-	private static const pageDataClass:Class;
-}
-}

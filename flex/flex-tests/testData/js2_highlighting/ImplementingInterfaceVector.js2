@@ -1,6 +1,0 @@
-package {
-import foo.IDummy;
-class <error>Dummy</error> implements IDummy {
-  <caret>
-}
-}

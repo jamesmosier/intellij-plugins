@@ -1,1 +1,0 @@
-var test:ResolveTest2 = new Resolve<caret>Test2("s", 1);

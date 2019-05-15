@@ -1,3 +1,0 @@
-<error>package</error> {
-  public function ValidateFunctionAndPackageName2() {}
-}

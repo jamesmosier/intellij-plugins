@@ -1,6 +1,0 @@
-package {
-
-public class NoHtmlInspectionsForXmlLiteral {
-    public var xml:XML = <element1 attr = 'value'><element attr="false"/>foo</element1>;
-}
-}

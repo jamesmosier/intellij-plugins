@@ -1,8 +1,0 @@
-class C {
-    var a, b;
-
-    function foo() {
-        var b:C;
-        var c = b.a + b.b;
-    }
-}

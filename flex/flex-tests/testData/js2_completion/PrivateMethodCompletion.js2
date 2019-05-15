@@ -1,6 +1,0 @@
-class MyClass {
-  private function myFunction() {}
-}
-var a:MyClass
-
-a.my<caret>

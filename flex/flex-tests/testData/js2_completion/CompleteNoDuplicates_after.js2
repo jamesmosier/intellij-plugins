@@ -1,8 +1,0 @@
-package {
-class FooFoo {
-    function FooFoo() {}
-    function foo(v:FooFoo) {
-        foo(new FooFoo()<caret>)
-    }
-}
-}

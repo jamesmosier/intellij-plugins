@@ -1,6 +1,0 @@
-class Foo {
-    function foo() {
-        var p : LibraryMain;
-        p.someMe<caret>thod();
-    }
-}

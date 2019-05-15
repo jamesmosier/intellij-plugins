@@ -1,3 +1,0 @@
-package {
-  namespace <error descr="Namespace 'Foo' should be defined in file 'Foo.js2'">Foo</error>;
-}

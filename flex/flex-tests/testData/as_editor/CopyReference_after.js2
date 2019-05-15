@@ -1,7 +1,0 @@
-package bar {
-import foo.Bar;
-
-class XXX {
-      var x:Bar<caret>
-  }
-}

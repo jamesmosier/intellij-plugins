@@ -1,2 +1,0 @@
-final class SimpleFinal {}
-class MyClass extends Simple<caret> {}

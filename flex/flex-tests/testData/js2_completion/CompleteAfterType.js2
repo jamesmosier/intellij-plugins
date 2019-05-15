@@ -1,9 +1,0 @@
-class C {
-  var field2;
-}
-
-class A extends C {
-  function aaa() {
-    A.fi<caret>
-  }
-}

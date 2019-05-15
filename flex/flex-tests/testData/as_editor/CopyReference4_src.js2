@@ -1,7 +1,0 @@
-package foo {
-  public class CopyReference4_src {
-      function CopyReference4_src() {
-        new Copy<caret>Reference4_src()
-      }
-  }
-}

@@ -1,3 +1,0 @@
-<warning>package</warning> {
-  class <warning descr="Object is located in file out of source root, certain functionality will not be available">NoSourceRoot</warning> {}
-}

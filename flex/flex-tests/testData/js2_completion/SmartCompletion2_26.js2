@@ -1,5 +1,0 @@
-class MyEnum {
-    static var INST:MyEnum;
-}
-
-var x:MyEnum = I<caret>

@@ -1,5 +1,0 @@
-class CCC {
-    function CCC() {
-        var x:C<caret>CC = new CCC();
-    } 
-}

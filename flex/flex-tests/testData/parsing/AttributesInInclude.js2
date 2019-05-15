@@ -1,2 +1,0 @@
-/** @MyDoc */
-[AccessibilityClass(implementation="mx.accessibility.LinkButtonAccImpl")]

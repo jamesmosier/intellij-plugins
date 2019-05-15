@@ -1,5 +1,0 @@
-package aaa {
-  class MyClass {
-    var a:* = new MyA<caret>
-  }
-}

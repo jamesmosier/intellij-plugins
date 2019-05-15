@@ -1,4 +1,0 @@
-[DefaultProperty("test2")]
-class Foo {
-    var test2;
-}

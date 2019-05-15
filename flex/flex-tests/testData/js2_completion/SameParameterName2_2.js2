@@ -1,5 +1,0 @@
-package {
-public class Graphics {
-    public function drawCircle(x:int,y:int) {}
-}
-}

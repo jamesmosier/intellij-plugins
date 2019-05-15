@@ -1,9 +1,0 @@
-package AAA {
-  class A {
-    function zzz():BB<caret> {}
-  }
-}
-
-package AAA2 {
-  public class BBB {}
-}

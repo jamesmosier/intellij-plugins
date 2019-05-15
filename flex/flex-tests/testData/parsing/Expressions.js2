@@ -1,3 +1,0 @@
-var textField:UITextField = childList.getChildAt(i) as UITextField;
-if (textField is UITextField) {}
-y..z

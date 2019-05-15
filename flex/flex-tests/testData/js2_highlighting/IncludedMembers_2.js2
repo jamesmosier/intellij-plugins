@@ -1,3 +1,0 @@
-function set field(val:int):int {}
-function get field():int {}
-public function method(a):void {}

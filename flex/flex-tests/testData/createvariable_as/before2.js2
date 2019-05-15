@@ -1,9 +1,0 @@
-// "Create Field 'aaa'" "true"
-class B {}
-class A {
-  function A() {
-    var b:B;
-    trace(b.a<caret>aa);
-  }
-}
-

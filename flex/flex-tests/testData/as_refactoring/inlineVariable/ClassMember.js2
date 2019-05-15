@@ -1,6 +1,0 @@
-class Foo {
-    const x<caret>x = "foo";
-    function foo() {
-       var y = xx + xx;
-    }
-}

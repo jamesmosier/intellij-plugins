@@ -1,1 +1,0 @@
-Baz<caret>Bar2.foo();

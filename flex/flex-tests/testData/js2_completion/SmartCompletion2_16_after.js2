@@ -1,6 +1,0 @@
-interface IXXX {}
-class SomeType implements IXXX {
-    function foo() {
-        var x:IXXX = this<caret>
-    }
-}

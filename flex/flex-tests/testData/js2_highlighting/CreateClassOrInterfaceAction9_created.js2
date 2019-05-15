@@ -1,7 +1,0 @@
-package foo {
-public class Abc extends CreateClassOrInterfaceAction9 {
-    public function Abc(createClassOrInterfaceAction9:CreateClassOrInterfaceAction9) {
-        super();
-    }
-}
-}

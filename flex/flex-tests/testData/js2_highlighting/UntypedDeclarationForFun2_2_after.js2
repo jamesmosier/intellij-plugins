@@ -1,6 +1,0 @@
-class Foo {}
-
-function foo():* {
-    if (arguments.length == 0) return new Foo();
-    return true;
-}

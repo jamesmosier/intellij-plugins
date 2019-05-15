@@ -1,6 +1,0 @@
-// "Create Function '_selectionManager'" "true"
-class A {
-  public function getSelectionManager():ISelectionManager {
-    return BindUtils.bindSetter(_selection<caret>Manager);
-  }
-}

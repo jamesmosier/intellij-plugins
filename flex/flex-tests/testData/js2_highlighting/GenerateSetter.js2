@@ -1,8 +1,0 @@
-class A {
-  var _i:int;
-
-  [Bindable]
-  [Effect]
-  [Exclude]
-  var _p:int;
-}

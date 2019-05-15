@@ -1,3 +1,0 @@
-interface Foo {
-  function fo<caret>o();
-}

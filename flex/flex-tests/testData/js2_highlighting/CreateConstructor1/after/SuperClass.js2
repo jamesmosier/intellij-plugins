@@ -1,9 +1,0 @@
-package {
-import flash.events.Event;
-
-public class SuperClass {
-
-     public function SuperClass(i:int, i1:int, foo:String, event:Event) {
-     }
- }
-}

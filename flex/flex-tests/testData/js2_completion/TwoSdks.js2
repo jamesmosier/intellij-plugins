@@ -1,5 +1,0 @@
-package {
- class C {
-     var v : Abs<caret>
- }
-}

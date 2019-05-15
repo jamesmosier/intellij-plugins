@@ -1,4 +1,0 @@
-import <caret>
-package xxx {
-    function yyy() {}
-}

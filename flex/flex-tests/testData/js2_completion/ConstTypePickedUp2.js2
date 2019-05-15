@@ -1,6 +1,0 @@
-var xmllist = <>
-        <body id="aaa">
-            <p>hello &amp; </p>
-        </body>
-        </>;
-xmllist.<caret>

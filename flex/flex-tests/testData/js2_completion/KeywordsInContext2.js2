@@ -1,6 +1,0 @@
-package{
-
-public class KeywordsInContext2 {
-    pu<caret>
-}
-}

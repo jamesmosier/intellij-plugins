@@ -1,2 +1,0 @@
-var interfVar;
-var a = <xml>{interf<caret>}</xml>

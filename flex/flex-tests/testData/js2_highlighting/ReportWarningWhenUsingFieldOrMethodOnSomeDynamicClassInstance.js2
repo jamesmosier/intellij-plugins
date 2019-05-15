@@ -1,6 +1,0 @@
-var e:Error;
-e.<weak_warning>getMessage</weak_warning>();
-
-var myDate:Date = new Date();
-var x = myDate.<weak_warning>foo</weak_warning> + e.<weak_warning>bar</weak_warning>;
-var date:Date = myDate.<weak_warning>parse</weak_warning>("Jan 01 00:00:00 2006");

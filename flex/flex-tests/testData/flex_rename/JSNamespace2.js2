@@ -1,4 +1,0 @@
-
-package {
-    namespace JSNamespace2 = "xxx"
-}

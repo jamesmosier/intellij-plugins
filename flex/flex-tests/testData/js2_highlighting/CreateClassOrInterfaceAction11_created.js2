@@ -1,6 +1,0 @@
-package foo {
-public class Abc {
-    public function Abc(zz:String) {
-    }
-}
-}

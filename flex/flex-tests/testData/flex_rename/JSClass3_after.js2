@@ -1,4 +1,0 @@
-class AAA {
-  function A<caret>AA() {}
-  function test():AAA {}
-}

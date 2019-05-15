@@ -1,5 +1,0 @@
-package tt {
-  class Bar {
-      function baz() {}
-  }
-}

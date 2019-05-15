@@ -1,5 +1,0 @@
-class A {
-    function xxx() {
-        var <caret>b = 1;
-    }
-}

@@ -1,9 +1,0 @@
-/*
-File header
-*/
-var a:X<caret>XX;
-package yyy {
-  public class XXX {}
-}
-
-import yyy.XXX;

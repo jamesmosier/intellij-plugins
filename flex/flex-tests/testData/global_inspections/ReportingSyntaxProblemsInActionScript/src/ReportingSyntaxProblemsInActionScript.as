@@ -1,4 +1,0 @@
-class X {
-    function foo():
-}
-

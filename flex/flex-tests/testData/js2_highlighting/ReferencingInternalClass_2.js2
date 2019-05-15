@@ -1,5 +1,0 @@
-package test.bar {
-    class XXX
-    {
-    }
-}

@@ -1,5 +1,0 @@
-<cfoutput>
-  #s<caret>#
-</cfoutput>
-
-

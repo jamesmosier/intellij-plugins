@@ -1,5 +1,0 @@
-class SomeType {
-    var xxx:String;
-    var yyy:String;
-    var zzz:String = y<caret>
-}

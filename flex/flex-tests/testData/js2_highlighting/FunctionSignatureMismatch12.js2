@@ -1,9 +1,0 @@
-package {
-class FunctionSignatureMismatch12 {
-  private var say: Function = function(msg:String):void {}
-
-  private function foo() {
-    say<error>("hello", true)</error>;
-  }
-}
-}

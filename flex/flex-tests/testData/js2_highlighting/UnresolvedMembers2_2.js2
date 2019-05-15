@@ -1,6 +1,0 @@
-package xxx {
-  class CCC {
-    
-    function getLogger():void {}
-  }
-}

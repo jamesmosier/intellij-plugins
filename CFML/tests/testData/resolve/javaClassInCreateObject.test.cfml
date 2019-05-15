@@ -1,1 +1,0 @@
-<cfset variable = createObject("java", "MyC<caret>lass")>

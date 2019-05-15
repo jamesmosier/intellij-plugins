@@ -1,4 +1,0 @@
-package {
-<error>public</error> <error>inte<caret>rnal</error> class SeveralVisibilityModifiers {
-}
-}

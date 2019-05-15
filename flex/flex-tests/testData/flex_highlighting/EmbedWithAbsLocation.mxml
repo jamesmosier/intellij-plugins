@@ -1,4 +1,0 @@
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:x="<error>aaa</error>.*">
-    <mx:Image id="helpIcon" source="@Embed('/EmbedWithAbsLocation.mxml')"/>
-    <mx:Image id="helpIcon2" source="EmbedWithAbsLocation.mxml"/>
-</mx:Application>

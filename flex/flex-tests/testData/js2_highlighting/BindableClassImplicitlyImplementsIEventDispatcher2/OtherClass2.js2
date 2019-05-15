@@ -1,6 +1,0 @@
-package {
-public class OtherClass2 {
-    [Bindable]
-    public var foo;
-}
-}

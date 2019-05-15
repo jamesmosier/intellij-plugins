@@ -1,3 +1,0 @@
-/** Doc comment */
-var val:int;
-val = 1;

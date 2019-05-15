@@ -1,6 +1,0 @@
-package {
-  public class UnusedParameterHasCreateFieldQuickFix {
-    public static function bar(<warning>x<caret>xx</warning>:int): void {
-    }
-  }
-}

@@ -1,3 +1,0 @@
-MetadataFile:form-field.metadata.json
-  @angular/material/form-field <metadata node module>
-    export * from ./form-field/index <metadata module export>('')

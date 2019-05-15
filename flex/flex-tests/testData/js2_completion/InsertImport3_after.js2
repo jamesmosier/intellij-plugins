@@ -1,4 +1,0 @@
-import foo.getFoo<caret>
-package foo {
-  public function getFoo() {}
-}

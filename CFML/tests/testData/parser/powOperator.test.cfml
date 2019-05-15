@@ -1,1 +1,0 @@
-<cfset myFunction(a, 3+4,2^(i+2))>

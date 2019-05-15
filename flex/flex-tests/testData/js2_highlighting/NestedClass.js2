@@ -1,9 +1,0 @@
-package {
-    public class NestedClass {
-        class <error descr="Nested classes are not allowed">Bar</error> {}
-    }
-}
-
-{
-    class Foo {}
-}

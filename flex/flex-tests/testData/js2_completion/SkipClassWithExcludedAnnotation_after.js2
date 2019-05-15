@@ -1,5 +1,0 @@
-package {
-[ExcludeClass]
-class SkipClassWithExcludedAnnotation {}
-}
-var x:FooEx<caret>

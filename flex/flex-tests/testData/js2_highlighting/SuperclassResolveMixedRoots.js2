@@ -1,9 +1,0 @@
-package {
-import flash.filesystem.File;
-public class SuperclassResolveMixedRoots {
-    private function foo() {
-        var file:File;
-        trace(file.extension);
-    }
-}
-}

@@ -1,9 +1,0 @@
-class Bar {
-  public function toString():String {}
-}
-class A extends Bar {
-
-    public override function toString():String {
-        return super.toString();
-    }
-}

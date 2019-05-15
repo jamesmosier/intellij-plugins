@@ -1,5 +1,0 @@
-class Foo {
-    function foo() {
-       var y = "foo" + "foo";
-    }
-}

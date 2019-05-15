@@ -1,6 +1,0 @@
-// "Create Method 'foo'" "true"
-package {
-public function name():void {
-    fo<caret>o();
-}
-}

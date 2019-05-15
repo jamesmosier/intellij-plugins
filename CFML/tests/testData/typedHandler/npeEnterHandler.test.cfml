@@ -1,8 +1,0 @@
-<html><caret>
-<br/>
-<cfscript>
-</cfscript>
-
-<cfscript>
-</cfscript>
-</html>

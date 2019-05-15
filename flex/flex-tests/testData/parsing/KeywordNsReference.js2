@@ -1,5 +1,0 @@
-class Foo {
-    function Foo() {
-        protected::bar = 1;
-    }
-}

@@ -1,6 +1,0 @@
-class Foo {
-  function foo():void {
-    var <TYPO>typ<caret>ppo</TYPO>:int;
-    typppo = 1;
-  }
-}

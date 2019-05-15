@@ -1,6 +1,0 @@
-class SmartCompletion {}
-class MySmartCompletion extends SmartCompletion {}
-function foo(x:SmartCompletion) {}
-var xxx:MySmartCompletion
-var yyy:Object;
-foo(xxx<caret>);

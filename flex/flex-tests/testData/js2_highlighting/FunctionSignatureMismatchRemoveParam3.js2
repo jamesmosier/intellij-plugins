@@ -1,7 +1,0 @@
-package {
-    public class FunctionSignatureMismatchRemoveParam3 {
-        function foo(i: int, s: String, f : FunctionSignatureMismatchRemoveParam3) {
-            foo<error>(this)</error>;
-        }
-    }
-}

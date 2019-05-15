@@ -1,8 +1,0 @@
-class A {
-    private var created:String;
-
-    function xxx(s:String) {
-        created = "cccccc";
-        xxx(created)
-    }
-}

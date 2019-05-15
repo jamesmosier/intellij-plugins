@@ -1,4 +1,0 @@
-@${STEP_KEYWORD}(${STEP_REGEXP})
-public void ${METHOD_NAME}${PARAMETERS} {
-  ${BODY}
-}

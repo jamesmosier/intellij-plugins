@@ -1,7 +1,0 @@
-interface XXX {
-  function xxx():void
-}
-
-class YYY implements XXX {
-  public function xxx():void {}
-}

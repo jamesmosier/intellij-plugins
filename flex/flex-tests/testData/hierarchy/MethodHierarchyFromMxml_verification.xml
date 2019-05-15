@@ -1,9 +1,0 @@
-<node text="Interface1 (pack)">
-  <node text="MethodHierarchyCommon ()" base="true">
-    <node text="Class1 (pack)">
-      <node text="Class2 (pack)">
-        <node text="Class3 (pack)"/>
-      </node>
-    </node>
-  </node>
-</node>

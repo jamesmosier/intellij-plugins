@@ -1,3 +1,0 @@
-function foo(x, y:String = null, yyy:String = "", ...r) {
-    var xxx:String = yyy;
-}

@@ -1,1 +1,0 @@
-<cfset path=expandPath("<caret>")/>

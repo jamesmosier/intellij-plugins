@@ -1,7 +1,0 @@
-package {
-public class UnusedGlobalSymbols2
-{
-  public function UnusedGlobalSymbols2() {}
-}
-}
-

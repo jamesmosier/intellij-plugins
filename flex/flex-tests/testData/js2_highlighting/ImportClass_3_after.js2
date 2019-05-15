@@ -1,5 +1,0 @@
-import mypackage.Alert;
-
-function foo() {
-Alert.show;
-}

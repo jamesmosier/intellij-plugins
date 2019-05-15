@@ -1,6 +1,0 @@
-package {
-public class Test {
-Test<caret>
-function Test() {}
-}
-}

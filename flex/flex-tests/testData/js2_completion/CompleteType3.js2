@@ -1,7 +1,0 @@
-package AAA {
-  class A {
-    function zzz():BB<caret> {}
-  }
-}
-
-class BBB {}

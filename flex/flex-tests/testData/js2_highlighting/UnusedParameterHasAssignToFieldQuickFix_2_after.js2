@@ -1,8 +1,0 @@
-package {
-  public class UnusedParameterHasAssignToFieldQuickFix_2 {
-    private var _xxx:int;
-    public function bar(xxx:int): void {
-        _xxx = xxx;<caret>
-    }
-  }
-}

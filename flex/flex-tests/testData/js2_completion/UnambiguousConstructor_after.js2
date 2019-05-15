@@ -1,9 +1,0 @@
-package foo {
-    public class MyClass {
-	public function MyClass() {}
-}
-}
-package foo {
-
-var v = new MyClass()<caret>
-}

@@ -1,7 +1,0 @@
-function bar():int {
-    foo();
-    return 0;
-}
-
-ba<caret>r();
-bar();

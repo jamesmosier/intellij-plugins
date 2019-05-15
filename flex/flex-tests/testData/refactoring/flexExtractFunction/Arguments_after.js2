@@ -1,9 +1,0 @@
-function created(...arguments):void {
-    trace(arguments)
-}
-
-function foo() {
-    created(arguments);
-}
-
-function trace(... rest) {}

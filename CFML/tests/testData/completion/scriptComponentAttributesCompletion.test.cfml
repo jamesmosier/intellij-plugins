@@ -1,3 +1,0 @@
-component e<caret> {
-
-}

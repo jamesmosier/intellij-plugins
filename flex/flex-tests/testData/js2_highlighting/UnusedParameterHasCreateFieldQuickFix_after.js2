@@ -1,8 +1,0 @@
-package {
-  public class UnusedParameterHasCreateFieldQuickFix {
-      private static var xxx:int;
-    public static function bar(xxx:int): void {
-        UnusedParameterHasCreateFieldQuickFix.xxx = xxx;
-    }
-  }
-}

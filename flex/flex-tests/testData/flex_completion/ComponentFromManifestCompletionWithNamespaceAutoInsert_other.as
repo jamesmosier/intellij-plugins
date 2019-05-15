@@ -1,1 +1,0 @@
-package {public class ComponentFromManifestCompletionWithNamespaceAutoInsert_other {}}

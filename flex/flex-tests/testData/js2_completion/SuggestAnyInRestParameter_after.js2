@@ -1,4 +1,0 @@
-function trace(... rest) {}
-
-var xxx:uint = 1
-trace(xxx<caret>)

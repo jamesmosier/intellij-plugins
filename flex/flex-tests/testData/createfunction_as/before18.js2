@@ -1,6 +1,0 @@
-// "Create Method '_bbb'" "true"
-public class DDD {
-}
-class C {
-    DDD._b<caret>bb("1","2");
-}
