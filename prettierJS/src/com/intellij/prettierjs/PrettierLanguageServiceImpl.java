@@ -99,6 +99,7 @@ public class PrettierLanguageServiceImpl extends JSLanguageServiceBase implement
   @Nullable
   @Override
   protected JSLanguageServiceQueue createLanguageServiceQueue() {
+    LOGGER.info("Inside createLanguageServiceQueue james");
     return new JSLanguageServiceQueueImpl(myProject, new Protocol(myProject, Consumer.EMPTY_CONSUMER),
                                           myProcessConnector, myDefaultReporter, new JSLanguageServiceDefaultCacheData());
   }
@@ -116,13 +117,19 @@ public class PrettierLanguageServiceImpl extends JSLanguageServiceBase implement
     @Override
     protected JSLanguageServiceInitialState createState() {
       JSLanguageServiceInitialState state = new JSLanguageServiceInitialState();
-      final File service = new File(JSLanguageServiceUtil.getPluginDirectory(this.getClass(), "prettierLanguageService"),
-                                    "prettier-plugin-provider.js");
+//      final File service = new File(JSLanguageServiceUtil.getPluginDirectory(this.getClass(), "prettierLanguageService"),
+//                                    "prettier-plugin-provider.js");
+      LOGGER.info("hi james");
+      final File service = new File(JSLanguageServiceUtil.getPluginDirectory(this.getClass(), "lib"),
+              "prettier-plugin-provider.js");
       if (!service.exists()) {
-        LOGGER.error("prettier language service plugin not found");
+        String thePath = service.getAbsolutePath();
+        LOGGER.error("prettier language service plugin not found " + this.getClass() + "  |||  " + thePath);
       }
+      LOGGER.info("hi james, it exists");
       state.pluginName = "prettier";
       state.pluginPath = LocalFilePath.create(service.getAbsolutePath());
+      LOGGER.info("pluginPath: " + LocalFilePath.create(service.getAbsolutePath()));
       return state;
     }
 

@@ -1,4 +1,4 @@
-#### [Prettier](https://prettier.io) plugin for Jetbrains IDEs
+#### [Prettier](https://prettier.io) with ESlint plugin for Jetbrains IDEs
 
 
 ##### Key features
@@ -8,9 +8,4 @@
 * Automatic code style import from config
 
 
-##### Issues/Feature Requests
-Issues and feature requests are managed at [https://youtrack.jetbrains.com/issues/WEB](https://youtrack.jetbrains.com/issues/WEB)
-
-##### Code contributions
-See the [development guide](developer_environment.md) to get up and running.
-
+Uses prettier-eslint for formatting

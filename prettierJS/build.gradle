@@ -13,17 +13,19 @@ apply plugin: 'idea'
 apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'java'
 
-version '1.0-SNAPSHOT'
+version '1.1-SNAPSHOT'
 
 sourceSets {
   main {
     java {
       srcDirs 'src'
       srcDirs 'gen'
-      exclude 'com/intellij/prettierjs/fileWatcher'
+//      exclude 'com/intellij/prettierjs/fileWatcher'
     }
     resources {
       srcDirs 'resources'
+      srcDirs 'gen'
+      srcDirs 'src/com/intellij/prettierjs/prettierLanguageService'
     }
   }
 }
@@ -33,5 +35,21 @@ intellij {
   pluginName 'intellij.prettierJS'
   downloadSources false
   updateSinceUntilBuild false
-  plugins = ['JavaScriptLanguage']
+  plugins = ['JavaScriptLanguage', 'com.intellij.plugins.watcher:191.6183.20']
+}
+
+task copyFiles(type: Copy) {
+  from 'gen'
+  include "**/*.js"
+  into 'src/com/intellij/prettierjs'
+}
+
+project.afterEvaluate {
+  prepareSandbox.doLast {
+    def libraries = "$it.destinationDir/$intellij.pluginName/lib/"
+    copy {
+      from "$project.projectDir/gen/prettierLanguageService"
+      into libraries
+    }
+  }
 }

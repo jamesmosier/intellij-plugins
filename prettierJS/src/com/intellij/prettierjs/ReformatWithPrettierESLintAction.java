@@ -66,15 +66,15 @@ import javax.swing.event.HyperlinkListener;
 import java.util.*;
 import java.util.concurrent.Future;
 
-public class ReformatWithPrettierAction extends AnAction implements DumbAware {
+public class ReformatWithPrettierESLintAction extends AnAction implements DumbAware {
   private static final int REQUEST_TIMEOUT = 3000;
   private final ErrorHandler myErrorHandler;
 
-  public ReformatWithPrettierAction(@NotNull ErrorHandler errorHandler) {
+  public ReformatWithPrettierESLintAction(@NotNull ErrorHandler errorHandler) {
     myErrorHandler = errorHandler;
   }
 
-  public ReformatWithPrettierAction() {
+  public ReformatWithPrettierESLintAction() {
     this(ErrorHandler.DEFAULT);
   }
 

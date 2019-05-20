@@ -106,7 +106,7 @@ public class ReformatWithPrettierTest extends JSExternalToolIntegrationTest {
     if (configureFixture != null) {
       configureFixture.run();
     }
-    myFixture.testAction(new ReformatWithPrettierAction((new ReformatWithPrettierAction.ErrorHandler() {
+    myFixture.testAction(new ReformatWithPrettierESLintAction((new ReformatWithPrettierESLintAction.ErrorHandler() {
       @Override
       public void showError(@NotNull Project project, @Nullable Editor editor,
                             @NotNull String text, @Nullable Runnable onLinkClick) {

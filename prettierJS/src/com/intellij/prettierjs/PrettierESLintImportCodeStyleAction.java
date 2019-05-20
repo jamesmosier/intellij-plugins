@@ -12,8 +12,8 @@ import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.psi.PsiFile;
 import org.jetbrains.annotations.NotNull;
 
-public class PrettierImportCodeStyleAction extends AnAction {
-  public PrettierImportCodeStyleAction() {
+public class PrettierESLintImportCodeStyleAction extends AnAction {
+  public PrettierESLintImportCodeStyleAction() {
   }
 
   @Override

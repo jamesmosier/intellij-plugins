@@ -1,12 +1,14 @@
 <idea-plugin url="https://github.com/JetBrains/intellij-plugins/tree/master/prettierJS">
-  <id>intellij.prettierJS</id>
-  <name>Prettier</name>
-  <description><![CDATA[This plugin adds support for Prettier (<a href="https://prettier.io">https://prettier.io</a>), an opinionated code formatter.
+  <id>intellij.prettierEslintJS</id>
+  <name>Prettier ESLint</name>
+  <version>1.1</version>
+  <description><![CDATA[This plugin adds support for prettier-eslint (<a href="https://github.com/prettier/prettier-eslint">https://github.com/prettier/prettier-eslint</a>), an opinionated code formatter.
   <br/>
   <br/>
 To use it:
 <ul>
-  <li>Add prettier to your project with <em>npm install prettier --save-dev</em> or install it globally</li>
+  <li>Add prettier and prettier-eslint to your project with <em>yarn add prettier prettier-eslint --dev</em></li>
+  <li>Navigate to the Intellij Preferences window. Search for "prettier" (should be located in the Languages &amp; Frameworks -> JavaScript -> Prettier section). Change the Prettier package directory to be node_modules/prettier-eslint
   <li>Select the code or file you want to format using Prettier</li>
   <li>Use the “Reformat with Prettier” action (Alt-Shift-Cmd-P on macOS or Alt-Shift-Ctrl-P on Windows and Linux) or find it using the “Find
     Action” popup (Cmd/Ctrl-Shift-A)
@@ -19,10 +21,10 @@ To use it:
 This plugin is compatible with the IDE versions starting from 2018.1.
 <br/>
 <br/>
-Please report any issues in the <a href="https://youtrack.jetbrains.com/issues/WEB">issue tracker</a>.
+<p>Forked from the <a href="https://plugins.jetbrains.com/plugin/10456-prettier">original Prettier plugin</a> made by Intellij</p>
 ]]></description>
-  <vendor>JetBrains</vendor>
-
+  <vendor>James Mosier</vendor>
+  <idea-version since-build="191" until-build="191.*"/>
   <depends>JavaScript</depends>
   <depends>com.intellij.modules.platform</depends>
   <depends optional="true" config-file="file-watcher.xml">com.intellij.plugins.watcher</depends>
@@ -36,7 +38,7 @@ Please report any issues in the <a href="https://youtrack.jetbrains.com/issues/W
     <projectConfigurable
         parentId="Settings.JavaScript"
         id="settings.javascript.prettier"
-        displayName="Prettier"
+        displayName="Prettier ESLint"
         instance="com.intellij.prettierjs.PrettierConfigurable"
         provider="com.intellij.prettierjs.PrettierConfigurable$Provider"/>
 
@@ -47,8 +49,8 @@ Please report any issues in the <a href="https://youtrack.jetbrains.com/issues/W
     <directoryProjectConfigurator implementation="com.intellij.prettierjs.PrettierConfiguration$ProjectConfigurator"/>
   </extensions>
   <actions>
-    <action id="ReformatWithPrettierAction"
-            class="com.intellij.prettierjs.ReformatWithPrettierAction" text="Reformat with Prettier"
+    <action id="ReformatWithPrettierESLintAction"
+            class="com.intellij.prettierjs.ReformatWithPrettierESLintAction" text="Reformat with Prettier"
             description="Reformat with Prettier">
       <add-to-group group-id="EditorPopupMenu" anchor="last"/>
       <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
@@ -56,7 +58,7 @@ Please report any issues in the <a href="https://youtrack.jetbrains.com/issues/W
       <keyboard-shortcut keymap="Mac OS X" first-keystroke="meta alt shift P" />
       <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="meta alt shift P"/>
     </action>
-    <action id="PrettierImportCodeStyleAction" class="com.intellij.prettierjs.PrettierImportCodeStyleAction"
+    <action id="PrettierESLintImportCodeStyleAction" class="com.intellij.prettierjs.PrettierESLintImportCodeStyleAction"
             text="Apply Prettier Code Style Rules">
       <add-to-group group-id="EditorPopupMenu" anchor="last"/>
       <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
